@@ -44,7 +44,6 @@ export class Board {
         }
     }
 
-
     public addBishops() {
         new Bishop(Colors.BLACK, this.getCell(2, 0))
         new Bishop(Colors.BLACK, this.getCell(5, 0))
